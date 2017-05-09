@@ -1,0 +1,13 @@
+html, body{
+	font-family: 'Handlee', cursive;
+}
+
+div{
+	display: block;
+}
+
+/* header */
+
+.header{
+	background-color: #0034BC;
+}
