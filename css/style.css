@@ -30,14 +30,22 @@ div{
 }
 
 
-.navtext{
+.navtext {
+	padding-top: 15px;
+	margin-left: 40px;
+	font-size: 200%;
+}
+
+.navtext a{
 	text-align: center;
 	font-family: 'Handlee', cursive;
 	color: white;
 	font-weight: bold;
-	padding-top: 15px;
-	margin-left: 40px;
-	font-size: 200%;
+}
+
+.navtext a:hover, a:focus{
+	text-decoration: none;
+	color: #F5F5F5 !important;
 }
 
 .navbar-nav li a{
