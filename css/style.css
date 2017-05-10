@@ -51,7 +51,7 @@ div{
 
 #about{
 	font-family: 'Handlee', cursive;
-	background-image: url("header-bg.jpg") no-repeat center;
+	background-image: url(img/about.jpg) !important;
 	background-size: cover;
 	text-align: center;
 }
