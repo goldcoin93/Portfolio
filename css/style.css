@@ -15,13 +15,20 @@ div{
 
 .nav{
 	text-align: center;
-	font-size: 1.75em;
+	font-size: 25px;
 }
 
 .nav li{
 	color: white;
-	display: inline-block;
+	margin-top: 10px;
 }
+
+.navbar-brand{
+	color: white;
+	font-weight: bold;
+}
+
+
 
 /* about */
 
