@@ -14,14 +14,14 @@ div{
 
 .header{
 	font-family: 'Handlee', cursive;
-	background-color: black;
+	background-color: #7A7A7A;
+
 }
 
 .navbar-nav{
 	margin: 0;
 	text-align: center;
 	font-size: 25px;
-	position: relative;
 }
 
 .navbar-nav li{
@@ -45,7 +45,7 @@ div{
 
 .navtext a:hover, a:focus{
 	text-decoration: none;
-	color: #F5F5F5 !important;
+	color: #F5F5F5	 !important;
 }
 
 .navbar-nav li a{
@@ -58,11 +58,22 @@ div{
 	background-color: #0034BC !important;
 }
 
+/* home */
+
+#home{
+	font-family: 'Handlee', cursive;
+	background: url(../img/home4.jpg) no-repeat center center;
+	background-size: cover;
+	text-align: center;
+	color: white;
+	height: 93%;
+}
+
 /* about */
 
 #about{
 	font-family: 'Handlee', cursive;
-	background-image: url(../img/mac.jpg);
+	background: url(../img/own.png) no-repeat center center;
 	background-size: cover;
 	text-align: center;
 	color: white;
