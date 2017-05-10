@@ -6,6 +6,7 @@ div{
 	display: block;
 }
 
+
 /* header */
 
 .header{
@@ -13,14 +14,15 @@ div{
 	background-color: #0034BC;
 }
 
-.nav{
+.navbar-nav{
 	text-align: center;
 	font-size: 25px;
 }
 
-.nav li{
+.navbar-nav li{
 	color: white;
 	margin-top: 10px;
+	margin-right: 20px;
 }
 
 .navbar-brand{
@@ -28,10 +30,13 @@ div{
 	font-weight: bold;
 }
 
-
+.navbar-nav li a{
+}
 
 /* about */
 
-#about{
+.jumbotron{
 	font-family: 'Handlee', cursive;
+	background-image: url("img/header-bg.jpg") no-repeat center;
+	background-size: cover;
 }
