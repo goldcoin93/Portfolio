@@ -10,33 +10,53 @@ div{
 /* header */
 
 .header{
-	font-family: 'Handlee', cusirve;
+	font-family: 'Handlee', cursive;
 	background-color: #0034BC;
 }
 
 .navbar-nav{
+	margin: 0;
 	text-align: center;
 	font-size: 25px;
+	position: relative;
 }
 
 .navbar-nav li{
-	color: white;
-	margin-top: 10px;
-	margin-right: 20px;
+	margin-top: 0;
+	margin-right: 10px;
 }
 
-.navbar-brand{
+
+.navtext{
+	text-align: center;
+	font-family: 'Handlee', cursive;
 	color: white;
 	font-weight: bold;
+	padding-top: 15px;
+	margin-left: 40px;
+	font-size: 200%;
 }
 
 .navbar-nav li a{
+	color: white;
+	padding-top: 25px !important;
+	padding-bottom: 25px !important;
+}
+
+.navbar-nav li a:hover{
+	background-color: black !important;
 }
 
 /* about */
 
-.jumbotron{
+#about{
 	font-family: 'Handlee', cursive;
-	background-image: url("img/header-bg.jpg") no-repeat center;
+	background-image: url("header-bg.jpg") no-repeat center;
 	background-size: cover;
+	text-align: center;
+}
+
+#about p{
+	display: block;
+	border-style: ridge;
 }
