@@ -9,5 +9,22 @@ div{
 /* header */
 
 .header{
+	font-family: 'Handlee', cusirve;
 	background-color: #0034BC;
+}
+
+.nav{
+	text-align: center;
+	font-size: 1.75em;
+}
+
+.nav li{
+	color: white;
+	display: inline-block;
+}
+
+/* about */
+
+#about{
+	font-family: 'Handlee', cursive;
 }
