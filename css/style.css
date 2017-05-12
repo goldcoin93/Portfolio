@@ -55,7 +55,7 @@ div{
 }
 
 .navbar-nav li a:hover{
-	background-color: #0034BC !important;
+	background-color: #202020 !important;
 }
 
 /* home */
@@ -82,11 +82,10 @@ div{
 
 #about .row {
 	display: block;
-	padding-top: 185px;
+
 }
 
 #about h1{
-	margin-top: 1.25em;
 	font-weight: bold;
 	height: 25%;
 
