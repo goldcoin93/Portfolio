@@ -67,6 +67,11 @@ div{
 	text-align: center;
 	color: white;
 	height: 93%;
+	padding-top: 15%;
+    padding-bottom: 25%;
+    color: white;
+    text-shadow: 8px 8px 8px black;
+    text-align: center;
 }
 
 /* about */
@@ -84,6 +89,7 @@ div{
 
 #about h1{
 	font-weight: bold;
+	display: inline-block;
 }
 
 #about p{
