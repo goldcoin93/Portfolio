@@ -80,28 +80,18 @@ div{
 	height: 100%;
 }
 
-#about .row {
-	display: block;
 
-}
 
 #about h1{
 	font-weight: bold;
-	height: 25%;
 }
 
 #about p{
 	font-family: 'Open Sans', sans-serif;
-	display: block;
-	border-style: solid;
 	text-align: justify;
-	margin-top: 0px;
+	margin-top: 30px;
 }
 
-#about img{
-	height: 30%;
-	border-radius: 200%;
-}
 
 /* portfolio */
 
