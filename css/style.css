@@ -6,7 +6,6 @@ div{
 	display: block;
 }
 
-
 /* header */
 
 .header{
@@ -59,47 +58,70 @@ div{
 
 #home{
 	font-family: 'Handlee', cursive;
-	background: url(../img/home4.jpg) no-repeat center center;
+	background: url(../img/own.png) no-repeat center center;
 	background-size: cover;
 	text-align: center;
 	color: white;
-	height: 93%;
-	padding-top: 15%;
+	padding-top: 20%;
     padding-bottom: 25%;
-    color: white;
-    text-shadow: 8px 8px 8px black;
-    text-align: center;
+}
+
+#home h1,h3{
+	font-size: 80px;
+	text-shadow: 8px 8px 8px black;
+}
+
+#home a{
+	margin: 15px;
 }
 
 /* about */
 
 #about{
 	font-family: 'Handlee', cursive;
-	background: url(../img/own.png) no-repeat center center;
+	background: url(../img/home4.jpg) no-repeat center center;
 	background-size: cover;
 	text-align: center;
 	color: white;
-	height: 100%;
 	padding-top: 5%;
     padding-bottom: 5%;
 }
 
 
-
 #about h1{
 	font-weight: bold;
-	display: inline-block;
+	font-size: 55px;
 }
 
 #about p{
 	font-family: 'Open Sans', sans-serif;
 	text-align: justify;
-	margin-top: 30px;
+	font-size: 20px;
 }
 
 
 /* portfolio */
 
+#portfolio{
+	background-color: #555555;
+}
 #portfolio .row{
-	margin-bottom: 45px;
+	padding: 5% 0 5% 10%;
+}
+
+/* contact */
+
+#contact{
+	font-family: 'Handlee', cursive;
+	padding: 5% 0 5% 0;
+}
+
+#contact h1{
+	text-align: center;
+	font-size: 55px;
+}
+
+#contact .row{
+	padding-top: 5%;
+	margin-left: 8%;
 }
