@@ -6,9 +6,6 @@ div{
 	display: block;
 }
 
-.jumbotron{
-	margin-bottom: 0 !important;
-}
 
 /* header */
 
@@ -83,6 +80,8 @@ div{
 	text-align: center;
 	color: white;
 	height: 100%;
+	padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 
