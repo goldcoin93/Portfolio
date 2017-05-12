@@ -87,6 +87,9 @@ div{
     padding-bottom: 5%;
 }
 
+#about .row{
+	margin-left: -150px;
+}
 
 #about h1{
 	font-weight: bold;
@@ -112,8 +115,19 @@ div{
 /* contact */
 
 #contact{
+	background-color: #f2f2f2;
 	font-family: 'Handlee', cursive;
 	padding: 5% 0 5% 0;
+}
+	
+#contact .email-icon{
+	margin-top: 5% !important;
+	margin-left: 48% !important;
+	color: black;
+}
+
+#contact .email-icon:hover{
+	color: #571845;
 }
 
 #contact h1{
