@@ -108,8 +108,13 @@ div{
 #portfolio{
 	background-color: #555555;
 }
+
 #portfolio .row{
 	padding: 5% 0 5% 10%;
+}
+
+#portfolio .col-md-4{
+	margin-right: -10% !important;
 }
 
 /* contact */
