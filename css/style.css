@@ -125,11 +125,35 @@ nav .container{
 	padding: 5% 0 5% 15%;
 }
 
-#portfolio .well{
-	background: transparent;
-	border: none;
-	padding-top: 5px;
-	color: white;
+#portfolio .img{
+	width: 100%;
+}
+
+.overlay {
+  display: block;
+  position: absolute;
+  z-index: 20;
+  background: rgba(0, 0, 0, 0.8);
+  overflow: hidden;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+a.close-overlay {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  width: 200px;
+  height: 200px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 45px;
+  text-align: center;
+  background-color: #000;
+  cursor: pointer;
 }
 
 
