@@ -10,8 +10,12 @@ div{
 
 .header{
 	font-family: 'Handlee', cursive;
-	background-color: #7A7A7A;
+	background-color: #7A7A7A !important;
 
+}
+
+nav .container{
+	padding-left: 25px;
 }
 
 .navbar-nav{
@@ -26,26 +30,31 @@ div{
 }
 
 
-.navtext {
+.navbar-header{
 	padding-top: 15px;
+	padding-bottom: 15px;
 	margin-left: 40px;
+}
+
+.navtext{
 	font-size: 200%;
 }
 
-.navtext a{
+.navbar-header a{
 	text-align: center;
 	font-family: 'Handlee', cursive;
 	color: white;
-	font-weight: bold;
+	font-weight: bold !important;
 }
 
-.navtext a:hover, a:focus{
-	text-decoration: none;
+.navbar-header a:hover, a:focus{
+	text-decoration: none !important;
 	color: #F5F5F5	 !important;
 }
 
 .navbar-nav li a{
-	color: white;
+	font-weight: bold;
+	color: white !important;
 	padding-top: 25px !important;
 	padding-bottom: 25px !important;
 }
