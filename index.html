@@ -4,22 +4,21 @@
     <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Gaston Vargas</title>
   </head>
   <body>
-    <nav class="header navbar navbar-inverse navbar-fixed-top">
+    <nav class="header navbar navbar-inverse navbar-fixed-top" role="navigation">
  	 	<div class="container">
  	 	 <div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#theNavBar">
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
  	 	 	<a class="navtext" href="#home">Gaston Vargas</a>
       	</div>
-      	<div class="collapse navbar-collapse navbar-right">
+      	<div class="collapse navbar-collapse navbar-right" id="theNavBar">
 	        <ul class="nav navbar-nav">
 	        	<li><a href="#about">About</a></li>
 	        	<li><a href="#portfolio">Portfolio</a></li>
@@ -107,3 +106,6 @@
   </body>
    <script src="https://use.fontawesome.com/2716e05bb9.js"></script>
 </html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
