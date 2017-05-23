@@ -14,7 +14,6 @@ div{
 
 }
 
-
 .navbar-nav{
 	margin: 0;
 	text-align: center;
@@ -90,6 +89,9 @@ div{
 
 #about .personal-photo{
 	margin-left: 0px;
+	margin-right: 0px;
+	height: 360px;
+	width: 360px;
 }
 
 #about h1{
@@ -112,6 +114,13 @@ div{
 
 #portfolio .row{
 	padding: 5% 0 5% 15%;
+}
+
+#portfolio .well{
+	background: transparent;
+	border: none;
+	padding-top: 5px;
+	color: white;
 }
 
 
